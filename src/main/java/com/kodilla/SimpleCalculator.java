@@ -1,6 +1,6 @@
 package com.kodilla;
 
-public class FirstClass {
+public class SimpleCalculator {
 
         public int addAToB(int a, int b) {
         return a + b;
@@ -9,9 +9,9 @@ public class FirstClass {
         public int substractAFromB(int a, int b) {
         return a - b;
         }
- }
+    }
 
-    class Application
+    class WorkOut
     {
         public static void main(String[] args) {
 
@@ -23,5 +23,6 @@ public class FirstClass {
             System.out.println("Substracting: " + result + "\n" + "Adding: " + result2);
         }
     }
+
 
 
